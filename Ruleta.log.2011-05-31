@@ -1,0 +1,442 @@
+[2011-05-31 01:14:15,362] [controladores.MainEvents.<init>(70)] - INFO  - Construyendo ventana
+[2011-05-31 01:14:15,367] [controladores.MainEvents.<init>(75)] - DEBUG - Centralizando pantalla...
+[2011-05-31 01:14:15,370] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:14:15,684] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:14:15,687] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.categoria
+[2011-05-31 01:14:15,691] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.categoria'
+Select: '*'
+Param: 'null'
+============================
+[2011-05-31 01:14:18,040] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Comenzar,when=1306820658039,modifiers=Button1] on javax.swing.JButton[,171,63,97x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@3e78aa80,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Comenzar,defaultCapable=true]
+[2011-05-31 01:14:18,040] [controladores.EventBTT.actionPerformed(92)] - DEBUG - Cant. de jugadores: 2
+[2011-05-31 01:14:18,044] [vistas.WPartida.<init>(37)] - DEBUG - Construyendo juego
+[2011-05-31 01:14:18,045] [vistas.WPartida.<init>(45)] - DEBUG - Centralizando pantalla...
+[2011-05-31 01:14:18,085] [controladores.utils.Ruleta.<init>(16)] - DEBUG - Construyendo ruleta....
+[2011-05-31 01:14:23,773] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Guardar,when=1306820663773,modifiers=Button1] on javax.swing.JButton[,77,100,83x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@3e78aa80,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Guardar,defaultCapable=true]
+[2011-05-31 01:14:23,776] [controladores.EventBTT.actionPerformed(104)] - DEBUG - llenado el participante...
+[2011-05-31 01:14:23,780] [controladores.EventBTT.actionPerformed(106)] - DEBUG - removido todo...
+[2011-05-31 01:14:23,781] [vistas.CuadroParticipante.redibujar(121)] - DEBUG - participante: class modelos.Participante[nick: null | contrasena: null | puntaje: 0 | nJuegos: 0 | fechaCreacion: null | nombre: asdas | apellido: asd | sexo: Hombre]
+[2011-05-31 01:14:27,041] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Guardar,when=1306820667041,modifiers=Button1] on javax.swing.JButton[,77,100,83x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@3e78aa80,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Guardar,defaultCapable=true]
+[2011-05-31 01:14:27,045] [controladores.EventBTT.actionPerformed(104)] - DEBUG - llenado el participante...
+[2011-05-31 01:14:27,050] [controladores.EventBTT.actionPerformed(106)] - DEBUG - removido todo...
+[2011-05-31 01:14:27,051] [vistas.CuadroParticipante.redibujar(121)] - DEBUG - participante: class modelos.Participante[nick: null | contrasena: null | puntaje: 0 | nJuegos: 0 | fechaCreacion: null | nombre: sdas | apellido: asd | sexo: Hombre]
+[2011-05-31 01:14:28,217] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Girar!!!,when=1306820668217,modifiers=Button1] on javax.swing.JButton[,83,0,76x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@3e78aa80,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Girar!!!,defaultCapable=true]
+[2011-05-31 01:14:28,218] [controladores.EventBTT.actionPerformed(84)] - DEBUG - girando...
+[2011-05-31 01:14:28,281] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 7
+[2011-05-31 01:14:28,288] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 6
+[2011-05-31 01:14:28,299] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 5
+[2011-05-31 01:14:28,314] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 4
+[2011-05-31 01:14:28,334] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 3
+[2011-05-31 01:14:28,360] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 2
+[2011-05-31 01:14:28,390] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 1
+[2011-05-31 01:14:28,426] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 0
+[2011-05-31 01:14:28,466] [controladores.utils.Ruleta.run(64)] - DEBUG - retardo:45
+[2011-05-31 01:14:28,512] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 7
+[2011-05-31 01:14:28,557] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 6
+[2011-05-31 01:14:28,607] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 5
+[2011-05-31 01:14:28,663] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 4
+[2011-05-31 01:14:28,723] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 3
+[2011-05-31 01:14:28,789] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 2
+[2011-05-31 01:14:28,859] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 1
+[2011-05-31 01:14:28,935] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 0
+[2011-05-31 01:14:29,015] [controladores.utils.Ruleta.run(64)] - DEBUG - retardo:85
+[2011-05-31 01:14:29,100] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 7
+[2011-05-31 01:14:29,186] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 6
+[2011-05-31 01:14:29,276] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 5
+[2011-05-31 01:14:29,372] [controladores.utils.Ruleta.run(47)] - INFO  - Rueda detenida, categoria: 5 nuevo retardo: 10
+[2011-05-31 01:14:29,373] [vistas.TipoPregunta.<init>(32)] - DEBUG - Construyendo ventana de respuesta
+[2011-05-31 01:14:29,374] [controladores.utils.Global.obtenerPregunta(56)] - DEBUG - [class modelos.Categoria[idcategoria: 1 | nombreCategoria: Música | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 2 | nombreCategoria: Deportes | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 3 | nombreCategoria: Historia | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 4 | nombreCategoria: Castellano | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 5 | nombreCategoria: Cine, Series y TV | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 6 | nombreCategoria: Países | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 7 | nombreCategoria: Conocimiento General | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 8 | nombreCategoria: Otras | turnoPregunta: 0 | preguntas: null]]
+[2011-05-31 01:14:29,375] [controladores.utils.Global.obtenerPregunta(58)] - DEBUG - Global.posRuleta: 5 Global.categorias.size(): 8
+[2011-05-31 01:14:29,376] [controladores.utils.Global.obtenerPregunta(68)] - DEBUG - Error de nullPointer: liberando boton para seguir la partida...Ops!
+[2011-05-31 01:14:29,376] [vistas.TipoPregunta.<init>(43)] - DEBUG - class modelos.Pregunta[idPregunta: 0 | pregunta: null | tipo: false | opciones: null | correcta : 0 | respuestaCorrecta: null | idCategoria: 0 | nombroCategoria: null | categoria: null]
+[2011-05-31 01:14:43,226] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Seleccion,when=1306820683225,modifiers=Button1] on javax.swing.JButton[,0,15,91x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@3e78aa80,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Seleccion,defaultCapable=true]
+[2011-05-31 01:14:43,234] [vistas.PreguntaPopUp.<init>(42)] - DEBUG - Tipo recibido: true
+[2011-05-31 01:14:43,234] [vistas.PreguntaPopUp.<init>(46)] - DEBUG - Construyendo ventana de respuesta
+[2011-05-31 01:14:43,235] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:14:43,261] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:14:43,261] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.pregunta WHERE id_categorita = 5 AND turno = TRUE
+[2011-05-31 01:14:43,263] [controladores.AccionesPregunta.buscarPregunta(44)] - FATAL - Unknown column 'id_categorita' in 'where clause'
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'id_categorita' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.Util.getInstance(Util.java:384)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3494)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1960)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2114)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2690)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2619)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1465)
+	at controladores.DBConnector.dbConsult(DBConnector.java:47)
+	at controladores.AccionesPregunta.buscarPregunta(AccionesPregunta.java:26)
+	at vistas.PreguntaPopUp.<init>(PreguntaPopUp.java:58)
+	at controladores.EventBTT.actionPerformed(EventBTT.java:145)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+[2011-05-31 01:14:43,276] [vistas.PreguntaPopUp.<init>(59)] - DEBUG - class modelos.Pregunta[idPregunta: 0 | pregunta: null | tipo: false | opciones: null | correcta : 0 | respuestaCorrecta: null | idCategoria: 0 | nombroCategoria: null | categoria: null]
+[2011-05-31 01:18:36,873] [controladores.MainEvents.<init>(70)] - INFO  - Construyendo ventana
+[2011-05-31 01:18:36,877] [controladores.MainEvents.<init>(75)] - DEBUG - Centralizando pantalla...
+[2011-05-31 01:18:36,880] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:18:37,176] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:18:37,180] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.categoria
+[2011-05-31 01:18:37,183] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.categoria'
+Select: '*'
+Param: 'null'
+============================
+[2011-05-31 01:18:40,112] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Comenzar,when=1306820920110,modifiers=Button1] on javax.swing.JButton[,171,63,97x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@178aab40,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Comenzar,defaultCapable=true]
+[2011-05-31 01:18:40,112] [controladores.EventBTT.actionPerformed(92)] - DEBUG - Cant. de jugadores: 2
+[2011-05-31 01:18:40,116] [vistas.WPartida.<init>(37)] - DEBUG - Construyendo juego
+[2011-05-31 01:18:40,117] [vistas.WPartida.<init>(45)] - DEBUG - Centralizando pantalla...
+[2011-05-31 01:18:40,145] [controladores.utils.Ruleta.<init>(16)] - DEBUG - Construyendo ruleta....
+[2011-05-31 01:18:43,319] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Guardar,when=1306820923318,modifiers=Button1] on javax.swing.JButton[,77,100,83x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@178aab40,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Guardar,defaultCapable=true]
+[2011-05-31 01:18:43,322] [controladores.EventBTT.actionPerformed(104)] - DEBUG - llenado el participante...
+[2011-05-31 01:18:43,335] [controladores.EventBTT.actionPerformed(106)] - DEBUG - removido todo...
+[2011-05-31 01:18:43,337] [vistas.CuadroParticipante.redibujar(121)] - DEBUG - participante: class modelos.Participante[nick: null | contrasena: null | puntaje: 0 | nJuegos: 0 | fechaCreacion: null | nombre: asda | apellido: sdxzcz | sexo: Hombre]
+[2011-05-31 01:18:46,307] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Guardar,when=1306820926306,modifiers=Button1] on javax.swing.JButton[,77,100,83x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@178aab40,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Guardar,defaultCapable=true]
+[2011-05-31 01:18:46,312] [controladores.EventBTT.actionPerformed(104)] - DEBUG - llenado el participante...
+[2011-05-31 01:18:46,316] [controladores.EventBTT.actionPerformed(106)] - DEBUG - removido todo...
+[2011-05-31 01:18:46,317] [vistas.CuadroParticipante.redibujar(121)] - DEBUG - participante: class modelos.Participante[nick: null | contrasena: null | puntaje: 0 | nJuegos: 0 | fechaCreacion: null | nombre: asd | apellido: dgfs | sexo: Hombre]
+[2011-05-31 01:18:47,975] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Girar!!!,when=1306820927974,modifiers=Button1] on javax.swing.JButton[,83,0,76x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@178aab40,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Girar!!!,defaultCapable=true]
+[2011-05-31 01:18:47,976] [controladores.EventBTT.actionPerformed(84)] - DEBUG - girando...
+[2011-05-31 01:18:48,041] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 7
+[2011-05-31 01:18:48,048] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 6
+[2011-05-31 01:18:48,059] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 5
+[2011-05-31 01:18:48,074] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 4
+[2011-05-31 01:18:48,094] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 3
+[2011-05-31 01:18:48,120] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 2
+[2011-05-31 01:18:48,150] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 1
+[2011-05-31 01:18:48,186] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 0
+[2011-05-31 01:18:48,226] [controladores.utils.Ruleta.run(64)] - DEBUG - retardo:45
+[2011-05-31 01:18:48,272] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 7
+[2011-05-31 01:18:48,317] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 6
+[2011-05-31 01:18:48,367] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 5
+[2011-05-31 01:18:48,423] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 4
+[2011-05-31 01:18:48,483] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 3
+[2011-05-31 01:18:48,549] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 2
+[2011-05-31 01:18:48,619] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 1
+[2011-05-31 01:18:48,695] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 0
+[2011-05-31 01:18:48,775] [controladores.utils.Ruleta.run(64)] - DEBUG - retardo:85
+[2011-05-31 01:18:48,860] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 7
+[2011-05-31 01:18:48,946] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 6
+[2011-05-31 01:18:49,036] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 5
+[2011-05-31 01:18:49,132] [controladores.utils.Ruleta.run(47)] - INFO  - Rueda detenida, categoria: 5 nuevo retardo: 10
+[2011-05-31 01:18:49,134] [vistas.TipoPregunta.<init>(32)] - DEBUG - Construyendo ventana de respuesta
+[2011-05-31 01:18:52,525] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Seleccion,when=1306820932524,modifiers=Button1] on javax.swing.JButton[,0,15,91x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@178aab40,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Seleccion,defaultCapable=true]
+[2011-05-31 01:18:52,544] [vistas.PreguntaPopUp.<init>(42)] - DEBUG - Tipo recibido: true
+[2011-05-31 01:18:52,545] [vistas.PreguntaPopUp.<init>(46)] - DEBUG - Construyendo ventana de respuesta
+[2011-05-31 01:18:52,547] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:18:52,575] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:18:52,576] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.pregunta WHERE id_categoria = 5 AND turno = TRUE
+[2011-05-31 01:18:52,577] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.pregunta'
+Select: '*'
+Param: 'id_categoria = 5 AND turno = TRUE'
+============================
+[2011-05-31 01:18:52,578] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:18:52,601] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:18:52,601] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.respuesta WHERE id_pregunta = 11
+[2011-05-31 01:18:52,602] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.respuesta'
+Select: '*'
+Param: 'id_pregunta = 11'
+============================
+[2011-05-31 01:18:52,603] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:18:52,618] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:18:52,619] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.categoria WHERE id_categoria = 5
+[2011-05-31 01:18:52,620] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.categoria'
+Select: '*'
+Param: 'id_categoria = 5'
+============================
+[2011-05-31 01:18:52,621] [vistas.PreguntaPopUp.<init>(59)] - DEBUG - class modelos.Pregunta[idPregunta: 11 | pregunta: Que nacionalidad tienen los famosos Terrance y Philip de South park? | tipo: false | opciones: [modelos.Respuesta@4987b287, modelos.Respuesta@6bd9e2c7, modelos.Respuesta@2db7ae22, modelos.Respuesta@760951a0] | correcta : 0 | respuestaCorrecta: Canadiences | idCategoria: 5 | nombroCategoria: Cine, Series y TV | categoria: Cine, Series y TV]
+[2011-05-31 01:21:09,507] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Canadiences,when=1306821069506,modifiers=Button1] on javax.swing.JButton[,0,55,112x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@178aab40,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Canadiences,defaultCapable=true]
+[2011-05-31 01:21:09,508] [controladores.EventBTT.actionPerformed(150)] - DEBUG - Seleccion false completacion: false
+[2011-05-31 01:21:09,509] [controladores.utils.Global.obtenerPregunta(56)] - DEBUG - [class modelos.Categoria[idcategoria: 1 | nombreCategoria: Música | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 2 | nombreCategoria: Deportes | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 3 | nombreCategoria: Historia | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 4 | nombreCategoria: Castellano | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 5 | nombreCategoria: Cine, Series y TV | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 6 | nombreCategoria: Países | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 7 | nombreCategoria: Conocimiento General | turnoPregunta: 0 | preguntas: null], class modelos.Categoria[idcategoria: 8 | nombreCategoria: Otras | turnoPregunta: 0 | preguntas: null]]
+[2011-05-31 01:21:09,509] [controladores.utils.Global.obtenerPregunta(58)] - DEBUG - Global.posRuleta: 5 Global.categorias.size(): 8
+[2011-05-31 01:21:09,511] [controladores.utils.Global.obtenerPregunta(68)] - FATAL - Error de nullPointer: liberando boton para seguir la partida...Ops!
+java.lang.NullPointerException
+	at controladores.utils.Global.obtenerPregunta(Global.java:61)
+	at controladores.EventBTT.actionPerformed(EventBTT.java:154)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+[2011-05-31 01:21:09,516] [controladores.EventBTT.actionPerformed(155)] - DEBUG - class modelos.Pregunta[idPregunta: 0 | pregunta: null | tipo: false | opciones: null | correcta : 0 | respuestaCorrecta: null | idCategoria: 0 | nombroCategoria: null | categoria: null]
+[2011-05-31 01:21:09,516] [controladores.EventBTT.actionPerformed(156)] - DEBUG - pre.getRespuestaCorrecta():null
+[2011-05-31 01:21:09,516] [controladores.EventBTT.actionPerformed(162)] - DEBUG - texto de boton: Canadiences
+[2011-05-31 01:31:52,496] [controladores.MainEvents.<init>(70)] - INFO  - Construyendo ventana
+[2011-05-31 01:31:52,499] [controladores.MainEvents.<init>(75)] - DEBUG - Centralizando pantalla...
+[2011-05-31 01:31:52,503] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:31:52,804] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:31:52,808] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.categoria
+[2011-05-31 01:31:52,811] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.categoria'
+Select: '*'
+Param: 'null'
+============================
+[2011-05-31 01:31:54,306] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Comenzar,when=1306821714304,modifiers=Button1] on javax.swing.JButton[,171,63,97x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@6401d98a,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Comenzar,defaultCapable=true]
+[2011-05-31 01:31:54,307] [controladores.EventBTT.actionPerformed(92)] - DEBUG - Cant. de jugadores: 2
+[2011-05-31 01:31:54,311] [vistas.WPartida.<init>(37)] - DEBUG - Construyendo juego
+[2011-05-31 01:31:54,311] [vistas.WPartida.<init>(45)] - DEBUG - Centralizando pantalla...
+[2011-05-31 01:31:54,339] [controladores.utils.Ruleta.<init>(16)] - DEBUG - Construyendo ruleta....
+[2011-05-31 01:31:57,945] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Guardar,when=1306821717944,modifiers=Button1] on javax.swing.JButton[,77,100,83x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@6401d98a,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Guardar,defaultCapable=true]
+[2011-05-31 01:31:57,948] [controladores.EventBTT.actionPerformed(104)] - DEBUG - llenado el participante...
+[2011-05-31 01:31:57,953] [controladores.EventBTT.actionPerformed(106)] - DEBUG - removido todo...
+[2011-05-31 01:31:57,954] [vistas.CuadroParticipante.redibujar(121)] - DEBUG - participante: class modelos.Participante[nick: null | contrasena: null | puntaje: 0 | nJuegos: 0 | fechaCreacion: null | nombre: asd | apellido: asd | sexo: Hombre]
+[2011-05-31 01:32:02,157] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Guardar,when=1306821722156,modifiers=Button1] on javax.swing.JButton[,77,100,83x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@6401d98a,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Guardar,defaultCapable=true]
+[2011-05-31 01:32:02,160] [controladores.EventBTT.actionPerformed(104)] - DEBUG - llenado el participante...
+[2011-05-31 01:32:02,165] [controladores.EventBTT.actionPerformed(106)] - DEBUG - removido todo...
+[2011-05-31 01:32:02,166] [vistas.CuadroParticipante.redibujar(121)] - DEBUG - participante: class modelos.Participante[nick: null | contrasena: null | puntaje: 0 | nJuegos: 0 | fechaCreacion: null | nombre: asd | apellido: ads | sexo: Hombre]
+[2011-05-31 01:32:03,219] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Girar!!!,when=1306821723218,modifiers=Button1] on javax.swing.JButton[,83,0,76x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@6401d98a,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Girar!!!,defaultCapable=true]
+[2011-05-31 01:32:03,220] [controladores.EventBTT.actionPerformed(84)] - DEBUG - girando...
+[2011-05-31 01:32:03,283] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 7
+[2011-05-31 01:32:03,290] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 6
+[2011-05-31 01:32:03,300] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 5
+[2011-05-31 01:32:03,316] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 4
+[2011-05-31 01:32:03,336] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 3
+[2011-05-31 01:32:03,362] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 2
+[2011-05-31 01:32:03,392] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 1
+[2011-05-31 01:32:03,428] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 0
+[2011-05-31 01:32:03,468] [controladores.utils.Ruleta.run(64)] - DEBUG - retardo:45
+[2011-05-31 01:32:03,513] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 7
+[2011-05-31 01:32:03,559] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 6
+[2011-05-31 01:32:03,609] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 5
+[2011-05-31 01:32:03,665] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 4
+[2011-05-31 01:32:03,725] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 3
+[2011-05-31 01:32:03,791] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 2
+[2011-05-31 01:32:03,861] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 1
+[2011-05-31 01:32:03,937] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 0
+[2011-05-31 01:32:04,017] [controladores.utils.Ruleta.run(64)] - DEBUG - retardo:85
+[2011-05-31 01:32:04,102] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 7
+[2011-05-31 01:32:04,188] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 6
+[2011-05-31 01:32:04,278] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 5
+[2011-05-31 01:32:04,374] [controladores.utils.Ruleta.run(47)] - INFO  - Rueda detenida, categoria: 5 nuevo retardo: 11
+[2011-05-31 01:32:04,375] [vistas.TipoPregunta.<init>(32)] - DEBUG - Construyendo ventana de respuesta
+[2011-05-31 01:32:06,121] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Seleccion,when=1306821726120,modifiers=Button1] on javax.swing.JButton[,0,15,91x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@6401d98a,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Seleccion,defaultCapable=true]
+[2011-05-31 01:32:06,136] [vistas.PreguntaPopUp.<init>(42)] - DEBUG - Tipo recibido: true
+[2011-05-31 01:32:06,136] [vistas.PreguntaPopUp.<init>(46)] - DEBUG - Construyendo ventana de respuesta
+[2011-05-31 01:32:06,139] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:32:06,163] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:32:06,163] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.pregunta WHERE id_categoria = 5 AND turno = TRUE
+[2011-05-31 01:32:06,164] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.pregunta'
+Select: '*'
+Param: 'id_categoria = 5 AND turno = TRUE'
+============================
+[2011-05-31 01:32:06,166] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:32:06,191] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:32:06,191] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.respuesta WHERE id_pregunta = 11
+[2011-05-31 01:32:06,192] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.respuesta'
+Select: '*'
+Param: 'id_pregunta = 11'
+============================
+[2011-05-31 01:32:06,199] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:32:06,221] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:32:06,221] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.categoria WHERE id_categoria = 5
+[2011-05-31 01:32:06,223] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.categoria'
+Select: '*'
+Param: 'id_categoria = 5'
+============================
+[2011-05-31 01:32:06,223] [vistas.PreguntaPopUp.<init>(59)] - DEBUG - class modelos.Pregunta[idPregunta: 11 | pregunta: Que nacionalidad tienen los famosos Terrance y Philip de South park? | tipo: true | opciones: [modelos.Respuesta@6bd9e2c7, modelos.Respuesta@2db7ae22, modelos.Respuesta@760951a0, modelos.Respuesta@5dce1bea] | correcta : 0 | respuestaCorrecta: Canadiences | idCategoria: 5 | nombroCategoria: Cine, Series y TV | categoria: Cine, Series y TV]
+[2011-05-31 01:32:11,329] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Canadiences,when=1306821731328,modifiers=Button1] on javax.swing.JButton[,0,55,112x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@6401d98a,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Canadiences,defaultCapable=true]
+[2011-05-31 01:32:11,330] [controladores.EventBTT.actionPerformed(150)] - DEBUG - Seleccion false completacion: false
+[2011-05-31 01:32:11,331] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:32:11,344] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:32:11,344] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.pregunta WHERE id_categoria = 5 AND turno = TRUE
+[2011-05-31 01:32:11,345] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.pregunta'
+Select: '*'
+Param: 'id_categoria = 5 AND turno = TRUE'
+============================
+[2011-05-31 01:32:11,346] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:32:11,363] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:32:11,364] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.respuesta WHERE id_pregunta = 11
+[2011-05-31 01:32:11,364] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.respuesta'
+Select: '*'
+Param: 'id_pregunta = 11'
+============================
+[2011-05-31 01:32:11,365] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:32:11,376] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:32:11,377] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.categoria WHERE id_categoria = 5
+[2011-05-31 01:32:11,377] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.categoria'
+Select: '*'
+Param: 'id_categoria = 5'
+============================
+[2011-05-31 01:32:11,378] [controladores.EventBTT.actionPerformed(157)] - DEBUG - class modelos.Pregunta[idPregunta: 11 | pregunta: Que nacionalidad tienen los famosos Terrance y Philip de South park? | tipo: true | opciones: [modelos.Respuesta@1816daa9, modelos.Respuesta@46d999a, modelos.Respuesta@377f4fbb, modelos.Respuesta@74b9a74] | correcta : 0 | respuestaCorrecta: Canadiences | idCategoria: 5 | nombroCategoria: Cine, Series y TV | categoria: Cine, Series y TV]
+[2011-05-31 01:32:11,378] [controladores.EventBTT.actionPerformed(158)] - DEBUG - pre.getRespuestaCorrecta():Canadiences
+[2011-05-31 01:32:11,379] [controladores.EventBTT.actionPerformed(164)] - DEBUG - texto de boton: Canadiences
+[2011-05-31 01:32:11,379] [controladores.EventBTT.actionPerformed(172)] - DEBUG - turno: 1
+[2011-05-31 01:32:11,380] [controladores.EventBTT.actionPerformed(174)] - DEBUG - punto!
+[2011-05-31 01:32:11,380] [controladores.EventBTT.actionPerformed(185)] - DEBUG - asdasdasdad +++++++ java.awt.Color[r=192,g=192,b=192]
+[2011-05-31 01:32:11,380] [controladores.EventBTT.actionPerformed(188)] - DEBUG - class modelos.Participante[nick: null | contrasena: null | puntaje: 0 | nJuegos: 0 | fechaCreacion: null | nombre: asd | apellido: asd | sexo: Hombre]
+[2011-05-31 01:32:11,381] [controladores.EventBTT.actionPerformed(191)] - DEBUG - removido todo...
+[2011-05-31 01:32:11,382] [vistas.CuadroParticipante.redibujar(121)] - DEBUG - participante: class modelos.Participante[nick: null | contrasena: null | puntaje: 50 | nJuegos: 0 | fechaCreacion: null | nombre: asd | apellido: asd | sexo: Hombre]
+[2011-05-31 01:32:11,383] [controladores.EventBTT.actionPerformed(196)] - DEBUG - asignando a participante global
+[2011-05-31 01:32:11,384] [controladores.EventBTT.actionPerformed(236)] - DEBUG - removido todo...
+[2011-05-31 01:32:11,385] [vistas.CuadroParticipante.redibujar(121)] - DEBUG - participante: class modelos.Participante[nick: null | contrasena: null | puntaje: 0 | nJuegos: 0 | fechaCreacion: null | nombre: asd | apellido: ads | sexo: Hombre]
+[2011-05-31 01:32:16,219] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Girar!!!,when=1306821736218,modifiers=Button1] on javax.swing.JButton[,83,0,76x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@6401d98a,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Girar!!!,defaultCapable=true]
+[2011-05-31 01:32:16,219] [controladores.EventBTT.actionPerformed(84)] - DEBUG - girando...
+[2011-05-31 01:32:16,220] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 4
+[2011-05-31 01:32:16,235] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 3
+[2011-05-31 01:32:16,251] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 2
+[2011-05-31 01:32:16,276] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 1
+[2011-05-31 01:32:16,302] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 0
+[2011-05-31 01:32:16,334] [controladores.utils.Ruleta.run(64)] - DEBUG - retardo:36
+[2011-05-31 01:32:16,370] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 7
+[2011-05-31 01:32:16,407] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 6
+[2011-05-31 01:32:16,448] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 5
+[2011-05-31 01:32:16,494] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 4
+[2011-05-31 01:32:16,546] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 3
+[2011-05-31 01:32:16,602] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 2
+[2011-05-31 01:32:16,664] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 1
+[2011-05-31 01:32:16,730] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 0
+[2011-05-31 01:32:16,802] [controladores.utils.Ruleta.run(64)] - DEBUG - retardo:76
+[2011-05-31 01:32:16,878] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 7
+[2011-05-31 01:32:16,954] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 6
+[2011-05-31 01:32:17,036] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 5
+[2011-05-31 01:32:17,122] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 4
+[2011-05-31 01:32:17,214] [controladores.utils.Ruleta.run(54)] - INFO  - segundos: 3
+[2011-05-31 01:32:17,310] [controladores.utils.Ruleta.run(47)] - INFO  - Rueda detenida, categoria: 3 nuevo retardo: 4
+[2011-05-31 01:32:17,311] [vistas.TipoPregunta.<init>(32)] - DEBUG - Construyendo ventana de respuesta
+[2011-05-31 01:32:19,419] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Seleccion,when=1306821739418,modifiers=Button1] on javax.swing.JButton[,0,15,91x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@6401d98a,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Seleccion,defaultCapable=true]
+[2011-05-31 01:32:19,436] [vistas.PreguntaPopUp.<init>(42)] - DEBUG - Tipo recibido: true
+[2011-05-31 01:32:19,436] [vistas.PreguntaPopUp.<init>(46)] - DEBUG - Construyendo ventana de respuesta
+[2011-05-31 01:32:19,437] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:32:19,463] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:32:19,463] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.pregunta WHERE id_categoria = 3 AND turno = TRUE
+[2011-05-31 01:32:19,464] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.pregunta'
+Select: '*'
+Param: 'id_categoria = 3 AND turno = TRUE'
+============================
+[2011-05-31 01:32:19,465] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:32:19,480] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:32:19,481] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.respuesta WHERE id_pregunta = 7
+[2011-05-31 01:32:19,482] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.respuesta'
+Select: '*'
+Param: 'id_pregunta = 7'
+============================
+[2011-05-31 01:32:19,483] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:32:19,494] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:32:19,495] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.categoria WHERE id_categoria = 3
+[2011-05-31 01:32:19,495] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.categoria'
+Select: '*'
+Param: 'id_categoria = 3'
+============================
+[2011-05-31 01:32:19,496] [vistas.PreguntaPopUp.<init>(59)] - DEBUG - class modelos.Pregunta[idPregunta: 7 | pregunta: Año de la declaración de la Segunda guerra mundial? | tipo: true | opciones: [modelos.Respuesta@3445378f, modelos.Respuesta@2c42a818, modelos.Respuesta@4c29d65b, modelos.Respuesta@4eb8176d] | correcta : 0 | respuestaCorrecta: 1939 | idCategoria: 3 | nombroCategoria: Historia | categoria: Historia]
+[2011-05-31 01:32:21,319] [controladores.EventBTT.actionPerformed(82)] - DEBUG - accion realizada... java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=1939,when=1306821741318,modifiers=Button1] on javax.swing.JButton[,0,80,66x25,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@6401d98a,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=1939,defaultCapable=true]
+[2011-05-31 01:32:21,319] [controladores.EventBTT.actionPerformed(150)] - DEBUG - Seleccion false completacion: false
+[2011-05-31 01:32:21,321] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:32:21,343] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:32:21,343] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.pregunta WHERE id_categoria = 3 AND turno = TRUE
+[2011-05-31 01:32:21,344] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.pregunta'
+Select: '*'
+Param: 'id_categoria = 3 AND turno = TRUE'
+============================
+[2011-05-31 01:32:21,345] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:32:21,398] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:32:21,399] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.respuesta WHERE id_pregunta = 7
+[2011-05-31 01:32:21,399] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.respuesta'
+Select: '*'
+Param: 'id_pregunta = 7'
+============================
+[2011-05-31 01:32:21,400] [controladores.DBConnector.<init>(16)] - INFO  - realizando coneccion con la Base de datos
+[2011-05-31 01:32:21,420] [controladores.DBConnector.<init>(21)] - INFO  - conectado a la Base de datos
+[2011-05-31 01:32:21,420] [controladores.DBConnector.dbConsult(46)] - INFO  - Ejecutando SQL: SELECT * FROM ruleta.categoria WHERE id_categoria = 3
+[2011-05-31 01:32:21,421] [controladores.DBConnector.dbConsult(48)] - INFO  - Consulta realizada....
+Bucando en la tabla: 'ruleta.categoria'
+Select: '*'
+Param: 'id_categoria = 3'
+============================
+[2011-05-31 01:32:21,421] [controladores.EventBTT.actionPerformed(157)] - DEBUG - class modelos.Pregunta[idPregunta: 7 | pregunta: Año de la declaración de la Segunda guerra mundial? | tipo: true | opciones: [modelos.Respuesta@4ce63606, modelos.Respuesta@1de4eb5b, modelos.Respuesta@2017b2b2, modelos.Respuesta@73d4d493] | correcta : 0 | respuestaCorrecta: 1939 | idCategoria: 3 | nombroCategoria: Historia | categoria: Historia]
+[2011-05-31 01:32:21,422] [controladores.EventBTT.actionPerformed(158)] - DEBUG - pre.getRespuestaCorrecta():1939
+[2011-05-31 01:32:21,422] [controladores.EventBTT.actionPerformed(164)] - DEBUG - texto de boton: 1939
+[2011-05-31 01:32:21,422] [controladores.EventBTT.actionPerformed(172)] - DEBUG - turno: 2
+[2011-05-31 01:32:21,423] [controladores.EventBTT.actionPerformed(174)] - DEBUG - punto!
+[2011-05-31 01:32:21,423] [controladores.EventBTT.actionPerformed(185)] - DEBUG - asdasdasdad +++++++ java.awt.Color[r=192,g=192,b=192]
+[2011-05-31 01:32:21,423] [controladores.EventBTT.actionPerformed(188)] - DEBUG - class modelos.Participante[nick: null | contrasena: null | puntaje: 0 | nJuegos: 0 | fechaCreacion: null | nombre: asd | apellido: ads | sexo: Hombre]
+[2011-05-31 01:32:21,424] [controladores.EventBTT.actionPerformed(191)] - DEBUG - removido todo...
+[2011-05-31 01:32:21,425] [vistas.CuadroParticipante.redibujar(121)] - DEBUG - participante: class modelos.Participante[nick: null | contrasena: null | puntaje: 50 | nJuegos: 0 | fechaCreacion: null | nombre: asd | apellido: ads | sexo: Hombre]
+[2011-05-31 01:32:21,430] [controladores.EventBTT.actionPerformed(199)] - DEBUG - asignando a participante global
+[2011-05-31 01:32:21,431] [controladores.EventBTT.actionPerformed(236)] - DEBUG - removido todo...
+[2011-05-31 01:32:21,431] [vistas.CuadroParticipante.redibujar(121)] - DEBUG - participante: class modelos.Participante[nick: null | contrasena: null | puntaje: 50 | nJuegos: 0 | fechaCreacion: null | nombre: asd | apellido: asd | sexo: Hombre]
